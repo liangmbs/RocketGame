@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "a0cf7de0-56dc-49ca-87b0-9ef685110c79",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "建筑-生产车间": {
+      "ver": "1.0.3",
+      "uuid": "fe3b86d1-6918-4690-92bc-fd4af2ca504d",
+      "rawTextureUuid": "a0cf7de0-56dc-49ca-87b0-9ef685110c79",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 1.5,
+      "trimX": 3,
+      "trimY": 6,
+      "width": 150,
+      "height": 132,
+      "rawWidth": 157,
+      "rawHeight": 147,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

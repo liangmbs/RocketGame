@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "6bd6fe46-73f7-40ca-a7c7-906d41cb20f4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "建筑-科学实验室": {
+      "ver": "1.0.3",
+      "uuid": "be888615-43d5-460b-bbc9-7bdaf4cd9ba4",
+      "rawTextureUuid": "6bd6fe46-73f7-40ca-a7c7-906d41cb20f4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 1,
+      "offsetY": 0,
+      "trimX": 5,
+      "trimY": 6,
+      "width": 149,
+      "height": 175,
+      "rawWidth": 157,
+      "rawHeight": 187,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "d5b6b505-358a-4954-aa5e-facf1d63b248",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "温度计架子": {
+      "ver": "1.0.3",
+      "uuid": "c1cdd3f4-6b00-429e-b821-e1edcde3e467",
+      "rawTextureUuid": "d5b6b505-358a-4954-aa5e-facf1d63b248",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 12,
+      "trimY": 12,
+      "width": 123,
+      "height": 12,
+      "rawWidth": 147,
+      "rawHeight": 36,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "5b072286-8e27-407a-b48a-1e696ed271a8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "建筑-发射台": {
+      "ver": "1.0.3",
+      "uuid": "dec9cb85-a937-4748-9c51-a906e70073cd",
+      "rawTextureUuid": "5b072286-8e27-407a-b48a-1e696ed271a8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2.5,
+      "offsetY": 2,
+      "trimX": 14,
+      "trimY": 5,
+      "width": 180,
+      "height": 349,
+      "rawWidth": 203,
+      "rawHeight": 363,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

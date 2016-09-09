@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "71c4ae0b-60ab-4844-8184-1291d35a7ca7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "建筑-运输": {
+      "ver": "1.0.3",
+      "uuid": "e14c79ee-d1ec-4961-9546-e2af609f7997",
+      "rawTextureUuid": "71c4ae0b-60ab-4844-8184-1291d35a7ca7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 1,
+      "trimX": 7,
+      "trimY": 4,
+      "width": 190,
+      "height": 109,
+      "rawWidth": 203,
+      "rawHeight": 119,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

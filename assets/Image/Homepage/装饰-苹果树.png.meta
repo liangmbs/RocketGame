@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "14c958a9-b01c-40ea-9873-c99936133486",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "装饰-苹果树": {
+      "ver": "1.0.3",
+      "uuid": "a502175d-50a9-45ca-8116-b01f5c3f2300",
+      "rawTextureUuid": "14c958a9-b01c-40ea-9873-c99936133486",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 3,
+      "trimY": 4,
+      "width": 66,
+      "height": 75,
+      "rawWidth": 72,
+      "rawHeight": 83,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

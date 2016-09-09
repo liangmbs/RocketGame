@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "6d57cf7a-bc40-45ee-a38d-91dec17a1f6e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "装饰-施工机器": {
+      "ver": "1.0.3",
+      "uuid": "a83533e3-8ee2-41de-8bb4-646e061bd865",
+      "rawTextureUuid": "6d57cf7a-bc40-45ee-a38d-91dec17a1f6e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0.5,
+      "trimX": 5,
+      "trimY": 4,
+      "width": 150,
+      "height": 139,
+      "rawWidth": 159,
+      "rawHeight": 148,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

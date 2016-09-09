@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "d2514586-647d-4a3b-90d4-d179a9f2fdef",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "滴管头（被捏）": {
+      "ver": "1.0.3",
+      "uuid": "bdeecdf7-c847-4457-883d-0ca68af513ae",
+      "rawTextureUuid": "d2514586-647d-4a3b-90d4-d179a9f2fdef",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 3,
+      "trimX": 11,
+      "trimY": 11,
+      "width": 78,
+      "height": 103,
+      "rawWidth": 102,
+      "rawHeight": 131,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
