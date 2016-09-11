@@ -2054,7 +2054,9 @@
     "fromY": -60,
     "toX": -289,
     "toY": -210,
-    "detection": false
+    "dropAction": null,
+    "arrowDetection": false,
+    "dropIsDropping": false
   },
   {
     "__type__": "cc.Sprite",
@@ -2115,8 +2117,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -56,
-      "y": -139
+      "x": -58,
+      "y": 34
     },
     "_skewX": 0,
     "_skewY": 0,
