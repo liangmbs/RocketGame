@@ -1,4 +1,4 @@
-cc.Class({
+var TimeManager = cc.Class({
     extends: cc.Component,
 
     properties: {
@@ -12,25 +12,34 @@ cc.Class({
         //    readonly: false,    // optional, default is false
         // },
         // ...
-        difficulties: 1,
-        clock: {
+        difficulties: 0,
+        stageTime: 6,
+        timer: {
             default: null,
-            type: cc.Sprite 
+            type: cc.Node
         }
         
     },
 
     // use this for initialization
     onLoad: function () {
-        var difficulty = this.difficulties;
-        this.clock.schedule(function(){
-            difficulty = difficulty + 1;
-            console.log(difficulty);
-        }, 6*(difficulty/10)); 
     },
-
-
-      
-    // called every frame, uncomment this function to activate update callback
+    
+    addDifficulty: function(){
+        this.difficulties++;
+    },
+    
+    setTime: function(){
+        this.stageTime = this.stageTime * (1 - (this.difficulties / 10));
+    },
+    //TODO : WindowWidth??
+    moveTo: function() {
+        this.timer.runAction(cc.moveBy(this.stageTime, cc.p(
+            //X
+            800, 
+            //Y
+            0
+            )));
+    }
 
 });

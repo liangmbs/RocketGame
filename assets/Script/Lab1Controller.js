@@ -1,3 +1,5 @@
+//External Depedency
+var TimeManager = require("TimeManager");
 
 cc.Class({
     extends: cc.Component,
@@ -11,6 +13,10 @@ cc.Class({
         
         arrow:{
             default: null,
+            type: cc.Node
+        },
+        timer:{
+            default:null,
             type: cc.Node
         },
         speed : 1,
@@ -30,6 +36,9 @@ cc.Class({
     
     // use this for initialization
     onLoad: function () {
+        //Loading External Depedency
+        var timerComponent = this.timer.getComponent("TimeManager");
+
         var arrowDetection = this.arrowDetection;
         var gravityDropAct =  cc.moveTo(1, cc.p(-56, -261));
         //Collision Manager
@@ -62,6 +71,9 @@ cc.Class({
         
         //Setting the action rep to global variable
         this.dropAction = dropRep;
+        
+        //Start timer
+        this.timer.getComponent("TimeManager").moveTo();
     },
     
     onDisable: function (){
@@ -97,34 +109,13 @@ cc.Class({
             console.log('error catach during dropping drop with user input' +  ex.message);
             throw(ex);
         }
-        /*
-        if(this.arrowDetection && !this.dropIsDropping){
-        var dropAction = cc.moveTo(1, cc.p(-56, -261));
-        var resetDropAction = cc.moveTo(.01, cc.p(-56, 34));
-        var dropSeq = cc.sequence(dropAction, resetDropAction);
-        var dropRep = cc.repeat(dropSeq, 1);
-        this.dropIsDropping = true;
-        this.drop.node.runAction(dropRep);
-        this.dropIsDropping = false;
-        }
-        //
-        this.drop.node.runAction(gravityDropAct);
-        console.log(this.arrowDetection);
-        if(gravityDropAct.isDone()){
-            console.log('reset me');
-        } else {
-            console.log(
-        gravityDropAct.getOriginalTarget().x);
-            console.log('ISDONE: ' +
-        gravityDropAct.isDone());
-        }
-        */
     },
     
     update: function() {
         if(this.dropAction.isDone()){
             this.dropIsDropping = false;
         }
+        
     }
     
 
