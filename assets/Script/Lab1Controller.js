@@ -122,6 +122,12 @@ cc.Class({
     },
     //I/O 
     dropDropped: function(){
+        try{
+        if(this.arrowDetection && !this.dropIsDropping){
+            this.dropIsDropping = true;
+            this.drop.node.runAction(this.dropAction);
+            
+            //Solution Animation Seprate by Stages:solutionActionTracke
             if(solutionActionTracker === 0){
                 this.solution4.runAction(cc.fadeIn(0.5));
                 this.solution3.runAction(cc.fadeIn(0.5));
@@ -133,10 +139,6 @@ cc.Class({
                 this.solution1.runAction(cc.scaleTo(1, 1, 2.1));
                 solutionActionTracker++;
             }
-        try{
-        if(this.arrowDetection && !this.dropIsDropping){
-            this.dropIsDropping = true;
-            this.drop.node.runAction(this.dropAction);
         }
         } catch (ex){
             console.log('error catach during dropping drop with user input' +  ex.message);
