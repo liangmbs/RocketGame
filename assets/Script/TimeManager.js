@@ -32,14 +32,17 @@ var TimeManager = cc.Class({
     setTime: function(){
         this.stageTime = this.stageTime * (1 - (this.difficulties / 10));
     },
+    
     //TODO : WindowWidth??
     moveTo: function() {
+    
         this.timer.runAction(cc.moveBy(this.stageTime, cc.p(
             //X
             800, 
             //Y
             0
             )));
+    
     }
 
 });

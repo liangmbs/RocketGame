@@ -1,0 +1,71 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "LiquidFill",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "溶液4": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "溶液3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.08333333333333333,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "溶液2": {
+        "props": {
+          "scaleY": [
+            {
+              "frame": 0.08333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "value": 2.6
+            }
+          ]
+        }
+      },
+      "溶液1": {
+        "props": {
+          "scaleY": [
+            {
+              "frame": 0.25,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 2.3
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

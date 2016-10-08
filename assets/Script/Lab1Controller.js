@@ -1,6 +1,8 @@
 //External Depedency
 var TimeManager = require("TimeManager");
 
+
+var solutionActionTracker = 0;
 cc.Class({
     extends: cc.Component,
 
@@ -29,6 +31,22 @@ cc.Class({
             default: null,
             type: cc.Action
         },
+        solution4:{
+            default:null,
+            type: cc.Node
+        },
+        solution3:{
+            default:null,
+            type: cc.Node
+        },
+        solution2:{
+            default:null,
+            type: cc.Node
+        },
+        solution1:{
+            default:null,
+            type: cc.Node
+        },
         arrowDetection: false,
         dropIsDropping: false
         
@@ -38,7 +56,11 @@ cc.Class({
     onLoad: function () {
         //Loading External Depedency
         var timerComponent = this.timer.getComponent("TimeManager");
-
+        
+        
+        //Setting var
+        //solutionActionTracker = 0;
+        
         var arrowDetection = this.arrowDetection;
         var gravityDropAct =  cc.moveTo(1, cc.p(-56, -261));
         //Collision Manager
@@ -100,6 +122,17 @@ cc.Class({
     },
     //I/O 
     dropDropped: function(){
+            if(solutionActionTracker === 0){
+                this.solution4.runAction(cc.fadeIn(0.5));
+                this.solution3.runAction(cc.fadeIn(0.5));
+                solutionActionTracker++;
+            }else if(solutionActionTracker === 1){
+                this.solution2.runAction(cc.scaleTo(1, 1, 2.6));
+                solutionActionTracker++;
+            }else if(solutionActionTracker === 2){
+                this.solution1.runAction(cc.scaleTo(1, 1, 2.1));
+                solutionActionTracker++;
+            }
         try{
         if(this.arrowDetection && !this.dropIsDropping){
             this.dropIsDropping = true;
@@ -115,7 +148,6 @@ cc.Class({
         if(this.dropAction.isDone()){
             this.dropIsDropping = false;
         }
-        
     }
     
 
